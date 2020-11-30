@@ -1,1 +1,1 @@
-# See [Wiki](https://github.com/evolarjun/workshop/wiki)
+# See [Wiki](https://github.com/NCBI-Codeathons/asm-ngs-workshop/wiki)
