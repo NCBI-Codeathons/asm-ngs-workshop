@@ -1,10 +1,10 @@
-inhibitor-resistant.*LACTAM\tBETA-LACTAM	SAM	Ampicillin/sulbactam (SAM)
-inhibitor-resistant.*LACTAM\tCEPHALOSPORIN	SAM	Ampicillin/sulbactam (SAM)
-CARBAPENEM	SAM	Ampicillin/sulbactam (SAM)
+inhibitor-resistant.*LACTAM	SAM	Ampicillin/sulbactam (SAM)
+inhibitor-resistant.*LACTAM	SAM	Ampicillin/sulbactam (SAM)
+inhibitor-resistant.*CARBAPENEM	SAM	Ampicillin/sulbactam (SAM)
 
-BETA-LACTAM\tBETA-LACTAM	TZP	Piperacillin/tazobactam (TZP)
-CEPHALOSPORIN	TZP	Piperacillin/tazobactam (TZP)
-CARBAPENEM	TZP	Piperacillin/tazobactam (TZP)
+inhibitor-resistant.*LACTAM	TZP	Piperacillin/tazobactam (TZP)
+inhibitor-resistant.*CEPHALOSPORIN	TZP	Piperacillin/tazobactam (TZP)
+inhibitor-resistant.*CARBAPENEM	TZP	Piperacillin/tazobactam (TZP)
 
 CEPHALOSPORIN	FEP	Cefepime (FEP)
 CARBAPENEM	FEP	Cefepime (FEP)
@@ -28,6 +28,6 @@ QUINOLONE	LVX	Levofloxacin (LVX)
 # The following will generate a lot of false predictions of resistance
 # because details about when these usually chromosomal genes cause resistance
 # are not known.
-EFFLUX  SXT     Trimethoprim-sulfamethoxazole (SXT)
-EFFLUX  AN      Amikacin (AN)
+#EFFLUX  SXT     Trimethoprim-sulfamethoxazole (SXT)
+#EFFLUX  AN      Amikacin (AN)
 
