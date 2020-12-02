@@ -2,5 +2,5 @@ cut -f 3 singapore_samples_srafull.txt | perl -ne 'BEGIN { print "--env ERR\t--o
         chomp;
         print join("\t",
                 "$_",
-                "gs://asm-ngs-aprasad/project1/step2/asm/$_.asm.fa"), "\n"
+                "gs://asm-ngs-$USER/project1/step2/asm/$_.asm.fa"), "\n"
         '
