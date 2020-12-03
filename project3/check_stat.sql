@@ -7,6 +7,6 @@ and T.acc IN
 (
 'ERR3209766',
 'ERR3209768',
-'ERR3209849',
+'ERR3209849'
 )
 order by T.acc, T.total_count DESC, T.self_count DESC
