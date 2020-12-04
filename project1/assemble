@@ -1,0 +1,12 @@
+dsub \
+  --provider google-cls-v2 \
+  --project asm-ngs-workshop \
+  --regions us-central1 \
+  --logging gs://asm-ngs-$USER/project1/logs \
+  --image staphb/skesa \
+  --tasks submit_list_two.tsv \
+  --command   'skesa --sra_run ${ERR} --contigs_out ${ASM} --cores 6 ' \
+  --min-ram 24 \
+  --min-cores 6 \
+  --subnetwork default \
+  --wait
